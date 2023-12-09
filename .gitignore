@@ -14,6 +14,7 @@ wp-content/uploads/
 # Ignore miscellaneous files
 wp-config.php
 .htaccess
+.htaccess.bk
 license.txt
 readme.html
 *.zip
