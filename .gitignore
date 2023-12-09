@@ -19,6 +19,8 @@ readme.html
 *.zip
 *.png
 *jpg
+*.sh
+*.sql
 # Ignore development files and directories
 node_modules/
 gulpfile.js
