@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         rqPurple: {
           DEFAULT: "#9C8FAB",
+          darker: "#6F6080",
+
         },
         rqGreen: {
           DEFAULT: "#90ABA8",

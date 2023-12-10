@@ -13,11 +13,12 @@ if ($experiences->have_posts()) :
         $experiences->the_post();
         $args = [
             "title" => get_the_title(),
-            "url_img" => wp_get_attachment_image_url(get_the_ID(), "large"),
+            "url_img" => get_the_post_thumbnail_url(get_the_ID(), "large"),
             "description" => get_the_content(),
         ];
 ?>  
     <?= get_template_part('components/cards/c', 'exp', $args) ?>
+
 <?php
     endwhile;
 

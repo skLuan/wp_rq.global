@@ -8,3 +8,19 @@
         @apply font-rqInter;
     }
 }
+
+.swiper {
+    @apply h-1/2;
+}
+.rq_wp_form_btn {
+    @apply !rounded-full !bg-rqYEllow !text-rqYEllow-darker !mx-auto !px-8 !shadow-md;
+}
+.rq_wp_form form .wpforms-field-container label{
+@apply !mb-1 !text-rqPurple opacity-70 !ml-4;
+}
+.rq_wp_form form .wpforms-field-container input {
+    @apply !rounded-full !shadow-md placeholder:text-rqPurple;
+}
+.rq_wp_form form .wpforms-submit-container {
+    @apply !flex;
+}
