@@ -5,7 +5,13 @@
 
 @layer base {
     body {
-        @apply font-rqInter;
+        @apply font-rqNunito;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        @apply font-rqNunitoSans;
+    }
+    p {
+        @apply text-lg tracking-tight text-rqPurple-darker font-medium leading-none;
     }
 }
 

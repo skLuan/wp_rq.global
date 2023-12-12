@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         rqInter: ["Inter", "sans-serif"],
         rqNunito: ["Nunito", "sans-serif"],
+        rqNunitoSans: ["Nunito Sans", "sans-serif"],
       },
     },
   },

@@ -441,7 +441,21 @@ video {
 }
 
 body {
-  font-family: Inter, sans-serif;
+  font-family: Nunito, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Nunito Sans, sans-serif;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(111 96 128 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -2071,8 +2085,12 @@ body {
   vertical-align: super;
 }
 
-.font-rqInter {
-  font-family: Inter, sans-serif;
+.font-rqNunito {
+  font-family: Nunito, sans-serif;
+}
+
+.font-rqNunitoSans {
+  font-family: Nunito Sans, sans-serif;
 }
 
 .text-2xl {
@@ -2099,6 +2117,10 @@ body {
   font-size: 4.1875rem;
 }
 
+.text-\[44px\] {
+  font-size: 44px;
+}
+
 .text-\[6\.5rem\] {
   font-size: 6.5rem;
 }
@@ -2119,6 +2141,10 @@ body {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .font-light {
@@ -2201,12 +2227,12 @@ body {
   line-height: 3.6rem;
 }
 
-.tracking-\[-0\.12rem\] {
-  letter-spacing: -0.12rem;
+.leading-none {
+  line-height: 1;
 }
 
-.tracking-tight {
-  letter-spacing: -0.025em;
+.tracking-\[-0\.12rem\] {
+  letter-spacing: -0.12rem;
 }
 
 .tracking-tighter {
@@ -2237,6 +2263,11 @@ body {
   color: rgb(156 143 171 / var(--tw-text-opacity));
 }
 
+.text-rqPurple-darker {
+  --tw-text-opacity: 1;
+  color: rgb(111 96 128 / var(--tw-text-opacity));
+}
+
 .text-rqWhite-Silver {
   --tw-text-opacity: 1;
   color: rgb(232 237 237 / var(--tw-text-opacity));
@@ -2250,11 +2281,6 @@ body {
 .text-rqYEllow-darker {
   --tw-text-opacity: 1;
   color: rgb(175 154 58 / var(--tw-text-opacity));
-}
-
-.text-rqPurple-darker {
-  --tw-text-opacity: 1;
-  color: rgb(111 96 128 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2502,11 +2528,6 @@ body {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .drop-shadow-md {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -2722,6 +2743,27 @@ body {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[80px\] {
+    font-size: 80px;
+  }
+
+  .lg\:leading-tight {
+    line-height: 1.25;
   }
 }
 
