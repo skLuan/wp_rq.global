@@ -12,6 +12,7 @@ module.exports = {
         rqGreen: {
           DEFAULT: "#90ABA8",
           darker: "#557E79",
+          saturated: "#71C9BF"
         },
         rqWhite: {
           DEFAULT: "#FFFFFF",

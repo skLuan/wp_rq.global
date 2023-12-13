@@ -9,21 +9,26 @@ $args = array(
 
 $experiences = new WP_Query($args);
 if ($experiences->have_posts()) :
-    while ($experiences->have_posts()) :
-        $experiences->the_post();
-        $args = [
-            "title" => get_the_title(),
-            "url_img" => get_the_post_thumbnail_url(get_the_ID(), "large"),
-            "description" => get_the_content(),
-        ];
-?>  
-    <?= get_template_part('components/cards/c', 'exp', $args) ?>
+?>
+    <div id="container_exp_cards" class="grid-cols-12 mx-4 mt-24 lg:grid">
+        <?php
+        while ($experiences->have_posts()) :
+            $experiences->the_post();
+            $args = [
+                "title" => get_the_title(),
+                "url_img" => get_the_post_thumbnail_url(get_the_ID(), "large"),
+                "description" => get_the_content(),
+            ];
+        ?>
+            <?= get_template_part('components/cards/c', 'exp', $args) ?>
 
+        <?php
+        endwhile;
+        // Restaurar datos de la publicación principal
+        wp_reset_postdata();
+        ?>
+    </div>
 <?php
-    endwhile;
-
-    // Restaurar datos de la publicación principal
-    wp_reset_postdata();
 else :
     // Si no se encuentran experiencias
     echo 'No se encontraron experiencias.';
