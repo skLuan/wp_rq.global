@@ -1,4 +1,4 @@
-<section id="join_us" class="relative grid-cols-2 gap-4 p-4 lg:grid lg:pt-60">
+<section id="join_us" class="relative grid-cols-2 gap-4 p-4 lg:grid lg:pt-24">
     <div class="relative z-10 participant_container">
         <h3 class="text-5xl font-extrabold text-center font-rqNunitoSans text-rqPurple">Become a participant</h3>
         <?= do_shortcode('[wpforms id="24"]') ?>

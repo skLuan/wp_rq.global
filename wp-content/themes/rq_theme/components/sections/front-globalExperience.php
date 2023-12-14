@@ -1,4 +1,4 @@
-<section id="global_Youth_Experience" class="flex flex-col mt-4">
+<section id="global_Youth_Experience" class="flex flex-col mt-16 lg:mt-4">
     <div class="flex grid-cols-12 lg:grid ">
         <iframe class="w-full col-span-10 col-start-2 h-56 lg:h-[655px]" src="https://www.youtube.com/embed/uGsQw4T4udI?si=XiNpH2JGfg962rOn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
     </div>
@@ -7,6 +7,6 @@
     <?= get_template_part('components/loops/l', 'experiences') ?>
     <div class="flex flex-col items-center p-8 my-40 bg-rqPurple">
         <p class="text-center lg:w-1/3 text-rqWhite">Feel a safe space where there is no <br> dream too big or too small.</p>
-        <button class="py-2 mx-auto mt-4 font-bold text-center rounded-full lg:w-1/4 bg-rqYEllow text-rqYEllow-darker">Subscribe</button>
+        <a href="#join_us" class="w-2/3 py-2 mx-auto mt-4 font-bold text-center rounded-full lg:w-1/4 bg-rqYEllow text-rqYEllow-darker">Subscribe</a>
     </div>
 </section>
