@@ -20,10 +20,14 @@
                 00:00:00
             </p>
             <h3 class="hidden text-lg font-bold text-center lg:block lg:text-2xl drop-shadow-sm font-rqNunito text-rqGreen"><?= RQ_FESTIVAL_DATE ?></h3>
-            <div class="flex flex-col text-center mt-28 lg:mt-8">
+            <!-- <div class="flex flex-col text-center mt-28 lg:mt-8">
                 <label class="text-sm shadow-sm text-rqWhite-Silver lg:text-rqPurple-darker" for="">For more information subscribe</label>
                 <input class="p-2 px-4 rounded-full" type="text" placeholder="This does anything">
                 <button class="w-2/3 py-2 mx-auto mt-2 font-bold text-center rounded-full bg-rqYEllow lg:bg-rqGreen-saturated text-rqGreen-darker">Subscribe</button>
+            </div> -->
+            <div class="relative z-10 banner_participant_container">
+                <?= do_shortcode('[wpforms id="24"]') ?>
+                <!-- <h6 class="text-sm text-center shadow-sm text-rqWhite-Silver lg:text-rqPurple-darker">For more information subscribe</h6> -->
             </div>
         </div>
         <h2 class="font-black text-center col-span-10 col-start-2 drop-shadow-md mt-auto text-6xl lg:text-[116px] text-rqWhite-Silver leading-[3.6rem] lg:leading-none">YOUNG CONSCIOUS LEADERS FESTIVAL</h2>

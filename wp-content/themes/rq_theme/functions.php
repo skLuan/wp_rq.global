@@ -30,8 +30,9 @@ function init_template()
     // ---------------------- Register Scripts ----------------------
     wp_enqueue_script('iconify', 'https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js', '', '1.0', 'all');
     wp_enqueue_script('swiper_js_main', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', '', '1.0', 'all');
-    wp_enqueue_script('main', get_stylesheet_directory_uri().'/js/main.js', ['swiper_js_main'], '1.0', 'all');
-    //wp_enqueue_script('swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', '', '1.8.1', 'all');
+    wp_enqueue_script('lazyLoad_lib', 'https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.5/dist/lazyload.min.js', '', '17.8.5', 'all');
+    wp_enqueue_script('rqlazyload', get_stylesheet_directory_uri().'/js/lazyload.js', ['lazyLoad_lib'], '1.0', 'all');
+    wp_enqueue_script('main', get_stylesheet_directory_uri().'/js/main.js', ['swiper_js_main', 'rqlazyload'], '1.0', 'all');
 }
 add_action('after_setup_theme', 'init_template');
 function RQ_add_sidebar()
