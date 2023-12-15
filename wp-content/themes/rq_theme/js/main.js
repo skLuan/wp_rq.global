@@ -1,4 +1,23 @@
-console.log('desde el main');
+window.addEventListener('load', (e)=> {
+    var pillarButtons = document.querySelectorAll('.btn_Pillars');
+    var pillarCards = document.querySelectorAll('.card_pillar');
+    function hideElements(list) {
+      list.forEach(element => {
+        element.classList.add('hidden');
+      });
+    }
+
+    pillarButtons.forEach( (pBtn, i) => {
+      pBtn.addEventListener('pointerdown', (e)=> {
+        pCard = pillarCards[i];
+        hideElements(pillarCards);
+        console.log(pCard);
+        pCard.classList.toggle('hidden');
+      });
+    });
+})
+
+// -------------------------------------------------- Swipers ---------------
 const swiper = new Swiper('.swiperPartners', {
   loop: true,
   autoHeight: false,
@@ -19,16 +38,8 @@ const swiperCom = new Swiper('.swiperCommunity', {
       slidesPerView: 3,
     }
   },
-  //spaceBetween: 8,
 centeredSlides: true,
 roundLengths: true,
-
-
-  // If we need pagination
-  // pagination: {
-  //   el: '.swiperCommunity-pagination',
-  // },
-
   // Navigation arrows
   navigation: {
     nextEl: '.swiperCommunity-button-next',
@@ -47,4 +58,3 @@ swiperCom.on('observerUpdate', ()=> {
 swiperCom.on('update', ()=> {
   lazyLoadInstance.update();
 });
-console.log(swiperCom);

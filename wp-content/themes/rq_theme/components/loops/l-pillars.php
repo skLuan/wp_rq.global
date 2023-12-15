@@ -18,6 +18,7 @@ if ($pillars->have_posts()) :
                 "title" => get_the_title(),
                 // "url_img" => get_the_post_thumbnail_url(get_the_ID(), "large"),
                 "description" => get_the_content(),
+                "slug" => get_post_field('post_name', get_the_ID()),
             ];
         ?>
             <?= get_template_part(COMPONENTS . '/cards/c', 'pillar', $args) ?>
