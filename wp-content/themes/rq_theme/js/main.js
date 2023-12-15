@@ -6,16 +6,41 @@ window.addEventListener('load', (e)=> {
         element.classList.add('hidden');
       });
     }
+    function validateChilds(array, target){
+      var validation = array.some((card) => {
+        return card.contains(target);
+      });
+
+      return validation
+    }
 
     pillarButtons.forEach( (pBtn, i) => {
-      pBtn.addEventListener('pointerdown', (e)=> {
+      pBtn.addEventListener('click', (e)=> {
         pCard = pillarCards[i];
         hideElements(pillarCards);
-        console.log(pCard);
+        //console.log(pCard);
         pCard.classList.toggle('hidden');
       });
     });
-})
+
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+       const buttonsArray = Array.from(pillarButtons);
+       const cardsArray = Array.from(pillarCards);
+       console.log(validateChilds(buttonsArray, target));
+
+      if(!validateChilds(buttonsArray, target) && !validateChilds(cardsArray, target)) {
+        console.log('something');
+        hideElements(pillarCards);
+        return
+      }
+      // if(!validateChilds(cardsArray, target)) {
+      //   console.log('something');
+      //   //hideElements(pillarCards);
+      // return
+      // }
+    })
+});
 
 // -------------------------------------------------- Swipers ---------------
 const swiper = new Swiper('.swiperPartners', {
@@ -23,9 +48,11 @@ const swiper = new Swiper('.swiperPartners', {
   autoHeight: false,
   autoplay: true,
   slidesPerView: 2,
+  centeredSlides: true,
   breakpoints: {
     940: {
       slidesPerView: 3,
+      
     }
   },
 });

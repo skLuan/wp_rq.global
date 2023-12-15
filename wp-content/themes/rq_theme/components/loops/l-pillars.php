@@ -10,7 +10,7 @@ $args = array(
 $pillars = new WP_Query($args);
 if ($pillars->have_posts()) :
 ?>
-    <div id="container_pillar_cards" class="relative">
+    <div id="container_pillar_cards" class="">
         <?php
         while ($pillars->have_posts()) :
             $pillars->the_post();

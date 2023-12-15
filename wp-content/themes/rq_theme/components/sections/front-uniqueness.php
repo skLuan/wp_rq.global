@@ -22,7 +22,7 @@ if ($pillars->have_posts()) :
     wp_reset_postdata();
 endif;
 ?>
-<section id="why_we_are_unique" class="relative flex flex-col p-4 mb-48">
+<section id="why_we_are_unique" class="relative flex flex-col p-4 mb-60">
     <?= get_template_part(COMPONENTS . '/title', 'section', ['title' => 'Why are we Unique?']) ?>
     <p class="mx-auto leading-tight lg:w-2/4">Through our 3 foundational pillars which are Insight, mother earth, and experiential learning—we combine the perfect synergy for anyone to evolve into a global conscious leader. We foster a habit of residing in a calm state of mind, crafting a journey of profound self-evolution.</p>
     <!-- <figure class="mx-auto">
@@ -31,7 +31,7 @@ endif;
         </picture>
     </figure> -->
 
-    <div id="rq_container_pillars" class="relative mt-14 w-full lg:w-1/3 mx-auto flex flex-col h-[542px]">
+    <div id="rq_container_pillars" class="relative mt-14 w-full lg:w-2/4 mx-auto flex flex-col h-[542px] lg:h-[742px]">
         <?= get_template_part(COMPONENTS . '/loops/l', 'pillars') ?>
         <h3 class="absolute flex w-full h-full text-4xl font-extrabold text-center font-rqNunitoSans text-rqPurple-darker">
             <span class="block pb-8 m-auto">
