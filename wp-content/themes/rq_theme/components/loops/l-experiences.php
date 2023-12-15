@@ -10,7 +10,7 @@ $args = array(
 $experiences = new WP_Query($args);
 if ($experiences->have_posts()) :
 ?>
-    <div id="container_exp_cards" class="grid-cols-12 mx-4 mt-20 lg:grid">
+    <div id="container_exp_cards" class="grid-cols-12 mx-4 lg:grid">
         <?php
         while ($experiences->have_posts()) :
             $experiences->the_post();

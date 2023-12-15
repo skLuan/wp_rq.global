@@ -40,6 +40,7 @@ window.addEventListener('load', (e)=> {
       // return
       // }
     })
+    lazyLoadInstance.update();
 });
 
 // -------------------------------------------------- Swipers ---------------
@@ -47,25 +48,25 @@ const swiper = new Swiper('.swiperPartners', {
   loop: true,
   autoHeight: false,
   autoplay: true,
-  slidesPerView: 2,
-  centeredSlides: true,
+  slidesPerView: 1,
+  //centeredSlides: true,
   breakpoints: {
     940: {
       slidesPerView: 3,
-      
+      slidesPerGroup:3,
+      autoplay: false,
     }
   },
 });
-
+// ------------------------------------------------------- COMMUNITY
 const swiperCom = new Swiper('.swiperCommunity', {
-  loop: true,
   slidesPerView: 2,
+    loopAddBlankSlides: true,
   breakpoints: {
     940: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     }
   },
-centeredSlides: true,
 roundLengths: true,
   // Navigation arrows
   navigation: {
@@ -79,6 +80,9 @@ roundLengths: true,
   },
 });
 
+swiperCom.on('afterInit', ()=> {
+  lazyLoadInstance.update();
+});
 swiperCom.on('observerUpdate', ()=> {
   lazyLoadInstance.update();
 });

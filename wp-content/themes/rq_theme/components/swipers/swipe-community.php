@@ -9,7 +9,7 @@ $args = array(
 $assistant_query = new WP_Query($args);
 ?>
 <!-- Slider main container -->
-<div class="w-full overflow-hidden swiper swiperCommunity">
+<div class="w-full pb-8 lg:w-3/4 swiper swiperCommunity bg-rqPurple">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
@@ -29,6 +29,7 @@ $assistant_query = new WP_Query($args);
                     ];
                     ?>
                     <?= get_template_part(COMPONENTS . '/cards/c', 'community-video', $args); ?>
+                    <!-- <div class="swiper-lazy-preloader"></div> -->
                 </div>
         <?php
             endwhile;

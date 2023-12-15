@@ -28,6 +28,9 @@ module.exports = {
         rqNunito: ["Nunito", "sans-serif"],
         rqNunitoSans: ["Nunito Sans", "sans-serif"],
       },
+      screens: {
+        '2xl': '1441px'
+      }
     },
   },
   plugins: [],
