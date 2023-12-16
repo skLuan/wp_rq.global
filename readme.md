@@ -51,7 +51,7 @@ The programming has been executed through a custom WordPress theme, ensuring a u
         
       ***Image Management***
     The "wp-content/uploads/" folder contains WordPress images as an administrator or CMS. Handle images separately. No files are stored in the repository. see the .gitignore for more info 
-        
+
 7. **Compiling Tailwind CSS**
     Tailwind CSS is used for CSS management. To compile it, go to "wp-content/themes/rq_themes/" and run:
     ```bash
