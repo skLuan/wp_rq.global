@@ -26,4 +26,3 @@ readme.html
 # Ignore development files and directories
 node_modules/
 gulpfile.js
-package.json
