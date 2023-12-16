@@ -41,10 +41,10 @@ The programming has been executed through a custom WordPress theme, ensuring a u
     with your credentials and the database name in the *wp-config.php* file.
     Remember that *local_data.sql* is a provided file.
    
-6. **Update Permalinks**
+5. **Update Permalinks**
     Access the WordPress admin, go to Settings > Permalinks > Save to update the permalinks.
 
-7. **Content Files**
+6. **Content Files**
     Copy provided content files (img, videos):
         wp-content/uploads/ for WordPress-related elements.
         wp/themes/rq_theme/assets/ for theme-related elements.
@@ -52,7 +52,7 @@ The programming has been executed through a custom WordPress theme, ensuring a u
       ***Image Management***
     The "wp-content/uploads/" folder contains WordPress images as an administrator or CMS. Handle images separately. No files are stored in the repository. see the .gitignore for more info 
         
-8. **Compiling Tailwind CSS**
+7. **Compiling Tailwind CSS**
     Tailwind CSS is used for CSS management. To compile it, go to "wp-content/themes/rq_themes/" and run:
     ```bash
     npm install
