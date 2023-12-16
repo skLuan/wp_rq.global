@@ -22,12 +22,12 @@ The programming has been executed through a custom WordPress theme, ensuring a u
         IMPORTANT: Whatever path you take, name the project or folder *"rq.global.dev".*
 
 2. **Clone the Repository**
-   ```bash
-   git clone https://github.com/skLuan/wp_rq.global
+    ```bash
+    git clone https://github.com/skLuan/wp_rq.global
 3. **Folder Configuration**
--    Move all folders, including the .git folder, to the WordPress installation folder or the root directory "rq.global.dev".
+-   Move all folders, including the .git folder, to the WordPress installation folder or the root directory "rq.global.dev".
     Replace files as needed.
--    Copy the provided "wp-admin.php" file to the root directory "rq.global.dev".
+-   Copy the provided "wp-admin.php" file to the root directory "rq.global.dev".
 
 4. **Import data base**
     ```bash
@@ -40,25 +40,28 @@ The programming has been executed through a custom WordPress theme, ensuring a u
     Ensure to replace -> **'USERNAMEDB,'** **'PASSDB,'** and **'LOCALDBNAME'**
     with your credentials and the database name in the *wp-config.php* file.
     Remember that *local_data.sql* is a provided file.
-   
+
 5. **Update Permalinks**
-    Access the WordPress admin, go to Settings > Permalinks > Save to update the permalinks.
 
-6. **Content Files**
+   Access the WordPress admin, go to Settings > Permalinks > Save to update the permalinks.
+
+7. **Content Files**
+
     Copy provided content files (img, videos):
-        wp-content/uploads/ for WordPress-related elements.
-        wp/themes/rq_theme/assets/ for theme-related elements.
+    wp-content/uploads/ for WordPress-related elements.
+    wp/themes/rq_theme/assets/ for theme-related elements.
         
-      ***Image Management***
-    The "wp-content/uploads/" folder contains WordPress images as an administrator or CMS. Handle images separately. No files are stored in the repository. see the .gitignore for more info 
-
-7. **Compiling Tailwind CSS**
+    ***Image Management***
+    The "wp-content/uploads/" folder contains WordPress images as an administrator or CMS. Handle images separately. No files are stored in the repository. see the .gitignore for more info
+   
+8. **Compiling Tailwind CSS**
+   
     Tailwind CSS is used for CSS management. To compile it, go to "wp-content/themes/rq_themes/" and run:
     ```bash
     npm install
     npm run tailwind
     ```
     This will activate the Tailwind daemon to build the output .css file in "rq_theme/css/style_output.css".
-    
-    #### IMPORTANT:
-    Laragon will always put a ".test" in the links, so to see the page, go to "rq.global.dev.test".
+
+#### IMPORTANT:
+ Laragon will always put a ".test" in the links, so to see the page, go to "rq.global.dev.test".
