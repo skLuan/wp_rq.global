@@ -39,7 +39,7 @@
 
 /* // ---------------------------------------------- Container -- // */
 .rq_wp_form {
-  @apply lg:!h-[432px];
+  @apply lg:!h-[432px] !rounded-md;
 }
 .rq_wp_form form {
   @apply !flex !flex-col !h-full;
@@ -75,6 +75,10 @@
 }
 
 /* // ----------------------------------------------  Banner Field -- // */
+.banner_participant_container .rq_wp_form {
+  @apply lg:!h-auto;
+
+}
 .banner_participant_container .rq_wp_form form .wpforms-field {
   @apply !mx-auto !flex !flex-col !w-full !py-1;
 }

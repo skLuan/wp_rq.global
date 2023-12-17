@@ -1,0 +1,15 @@
+{
+  "name": "rq_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./node_scripts/index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./css/twStyle.css -o ./css/style_output.css --watch"
+  },
+  "author": "skLuan",
+  "license": "ISC"
+}
