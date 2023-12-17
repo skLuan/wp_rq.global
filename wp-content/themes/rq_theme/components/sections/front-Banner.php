@@ -14,7 +14,7 @@
             </p>
             <h3 class="text-lg font-bold text-center lg:hidden drop-shadow-sm font-rqNunito text-rqGreen"><?= RQ_FESTIVAL_DATE ?></h3>
             <p class="mt-4 text-lg leading-tight text-center lg:mt-0 lg:px-4 lg:text-xl lg:text-left text-rqPurple">
-                A space where youth will be guided to feel limitless; and free to be their authentic selves, all while being loved and held by grandmother earth.
+                A space where youth will be guided to feel limitless; and free to be their authentic selves, all while learning to be conscious leaders capable of making a positive impact on the world.
             </p>
             <p class="hidden mt-4 text-5xl font-extrabold text-center lg:mt-24 lg:block drop-shadow-sm font-rqNunitoSans text-rqGreen">
                 00:00:00

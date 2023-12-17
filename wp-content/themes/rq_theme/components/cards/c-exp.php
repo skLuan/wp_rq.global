@@ -8,9 +8,9 @@ $args['description'] ? $description = $args['description'] : $description = 'whe
         <picture class="">
             <img src="<?= $urlImg ?>" alt="">
         </picture>
-        <h5 class="absolute bottom-0 w-full pb-4 text-4xl font-bold text-center lg:hidden drop-shadow-sm text-rqYEllow"><?= $title ?></h5>
     </figure>
-    <div class="px-4 py-8 m-auto lg:w-5/6">
+    <h5 class="bottom-0 w-full mt-4 text-4xl font-bold text-center lg:hidden drop-shadow-sm text-rqGreen-darker"><?= $title ?></h5>
+    <div class="px-4 pt-2 pb-8 m-auto lg:py-8 lg:w-5/6">
         <h4 class="hidden pb-8 text-4xl font-extrabold text-center lg:text-6xl lg:block drop-shadow-sm text-rqYEllow lg:text-rqGreen-darker"><?= $title ?></h4>
         <p class="leading-tight text-rqPurple-darker">
             <?= $description ?>
