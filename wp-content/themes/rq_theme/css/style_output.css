@@ -679,10 +679,6 @@ p {
   position: absolute;
 }
 
-.\!absolute {
-  position: absolute !important;
-}
-
 .relative {
   position: relative;
 }
@@ -711,12 +707,12 @@ p {
   left: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-full {
@@ -843,11 +839,6 @@ p {
   margin-bottom: auto;
 }
 
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -856,8 +847,8 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .ml-8 {
@@ -892,24 +883,16 @@ p {
   margin-top: 1rem;
 }
 
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
-.mt-48 {
-  margin-top: 12rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .box-border {
@@ -1124,23 +1107,8 @@ p {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-y-16 {
-  --tw-translate-y: -4rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-translate-y-2\/3 {
   --tw-translate-y: -66.666667%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-3\/4 {
-  --tw-translate-y: -75%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2249,6 +2217,11 @@ p {
   padding-bottom: 2rem !important;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2284,11 +2257,6 @@ p {
   padding-bottom: 2rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .\!pb-8 {
   padding-bottom: 2rem !important;
 }
@@ -2297,12 +2265,12 @@ p {
   padding-bottom: 0.5rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-72 {
+  padding-bottom: 18rem;
 }
 
 .pb-8 {
@@ -2315,14 +2283,6 @@ p {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-60 {
-  padding-bottom: 15rem;
-}
-
-.pb-72 {
-  padding-bottom: 18rem;
 }
 
 .text-left {
@@ -2672,14 +2632,6 @@ p {
   opacity: 0.2;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
 .opacity-75 {
   opacity: 0.75;
 }
@@ -3013,7 +2965,7 @@ p {
 
 @media (min-width: 1024px) {
   .rq_wp_form form .wpforms-field-container {
-    width: 83.333333% !important;
+    width: 66.666667% !important;
   }
 }
 
@@ -3192,16 +3144,8 @@ p {
 }
 
 @media (min-width: 1024px) {
-  .lg\:\!absolute {
-    position: absolute !important;
-  }
-
   .lg\:absolute {
     position: absolute;
-  }
-
-  .lg\:relative {
-    position: relative;
   }
 
   .lg\:left-0 {
@@ -3275,8 +3219,8 @@ p {
     margin-top: 2rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .lg\:block {
@@ -3373,6 +3317,11 @@ p {
     padding-right: 1rem;
   }
 
+  .lg\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -3383,16 +3332,17 @@ p {
     padding-bottom: 2rem;
   }
 
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
   .lg\:pr-4 {
     padding-right: 1rem;
   }
 
   .lg\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .lg\:pb-4 {
-    padding-bottom: 1rem;
   }
 
   .lg\:text-left {
@@ -3494,5 +3444,43 @@ p {
 @media (min-width: 1441px) {
   .\32xl\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .\32xl\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .\32xl\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
+  .\32xl\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .\32xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .\32xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .\32xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .\32xl\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .\32xl\:pb-8 {
+    padding-bottom: 2rem;
   }
 }

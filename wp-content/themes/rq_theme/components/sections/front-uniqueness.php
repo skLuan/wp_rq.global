@@ -23,7 +23,7 @@ if ($pillars->have_posts()) :
 endif;
 ?>
 
-<section id="why_we_are_unique" class="relative flex flex-col grid-cols-2 p-4 mt-48 mb-20 lg:grid lg:mb-60">
+<section id="why_we_are_unique" class="relative flex flex-col grid-cols-2 p-4 mt-48 mb-20 lg:grid lg:mb-32">
     <div class="w-full m-auto lg:mt-0">
         <?= get_template_part(COMPONENTS . '/title', 'section', ['title' => 'Why are we Unique?', 'classes' => ' !text-6xl !px-0 lg:!text-8xl']) ?>
         <p class="pt-8 m-auto leading-tight lg:w-3/4 lg:px-8">Through our 3 foundational pillars which are Insight, mother earth, and experiential learning—we combine the perfect synergy for anyone to evolve into a global conscious leader. We foster a habit of residing in a calm state of mind, crafting a journey of profound self-evolution.</p>
@@ -42,7 +42,7 @@ endif;
             </h3>
         </div>
         <div class="absolute flex w-full h-full">
-            <svg class="flex w-full h-full px-10 m-auto opacity-20" width="88" height="75" viewBox="0 0 88 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="flex w-full h-full px-10 m-auto lg:px-40 2xl:px-52 opacity-20" width="88" height="75" viewBox="0 0 88 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.16283 73L44 2L83.8372 73H2.16283Z" stroke="#1E1D20" stroke-width="2" />
             </svg>
         </div>
