@@ -36,7 +36,7 @@ endif;
 
     <div id="rq_container_pillars" class="relative mt-14 lg:mt-0 w-full mx-auto flex flex-col h-[542px] ">
         <?= get_template_part(COMPONENTS . '/loops/l', 'pillars') ?>
-        <div class="absolute z-10 flex w-full h-full text-4xl font-extrabold text-center font-rqNunitoSans text-rqPurple-darker">
+        <div class="absolute z-0 flex w-full h-full text-4xl font-extrabold text-center font-rqNunitoSans text-rqPurple-darker">
             <h3 class="block pb-4 m-auto">
                 Conscious Leader
             </h3>
