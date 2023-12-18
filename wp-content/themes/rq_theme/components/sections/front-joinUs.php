@@ -7,7 +7,7 @@
         <span class="font-extrabold lg:absolute left-0 -top-28 tracking-tighter text-center w-full inline-flex justify-center font-rqNunitoSans text-rqPurple text-[6.5rem] lg:text-[288px] opacity-20 lg:opacity-10">Join Us</span>
         <div class="relative flex flex-col items-center w-full -translate-y-10 lg:absolute lg:top-0">
             <h3 class="text-4xl font-extrabold lg:text-5xl font-rqNunitoSans text-rqGreen"><?= RQ_FESTIVAL_DATE ?></h3>
-            <span class="text-5xl font-extrabold font-rqNunitoSans text-rqYEllow">
+            <span class="text-5xl font-extrabold counter font-rqNunitoSans text-rqYEllow">
                 00:00:00
             </span>
         </div>
