@@ -39,7 +39,7 @@
 
 /* // ---------------------------------------------- Container -- // */
 .rq_wp_form {
-  @apply lg:!h-[432px] !rounded-md;
+  @apply lg:!h-fit !rounded-md lg:!bg-white lg:!shadow-md lg:!w-2/3 lg:!pt-4 lg:!border-solid lg:!border-2 lg:!border-opacity-50 !border-rqPurple;
 }
 .rq_wp_form form {
   @apply !flex !flex-col !h-full;
@@ -62,7 +62,7 @@
 /* // ---------------------------------------------- Fields Input */
 
 .rq_wp_form form .wpforms-field-container input {
-  @apply !rounded-full !font-medium !text-rqPurple-darker !text-lg !pl-6 !shadow-md placeholder:!opacity-80 placeholder:!text-rqPurple !w-full !max-w-none;
+  @apply !rounded-full !font-medium !text-rqPurple-darker !text-lg !pl-6 !shadow-md lg:!shadow-none placeholder:!opacity-80 placeholder:!text-rqPurple !w-full !max-w-none;
 }
 /* // ---------------------------------------------- Submit Container */
 
@@ -71,12 +71,13 @@
 }
 /* // ---------------------------------------------- Submit button */
 .rq_wp_form_btn {
-  @apply !rounded-full !bg-rqYEllow !text-lg !font-extrabold !text-rqYEllow-darker !mx-auto !w-1/3 !shadow-md;
+  @apply !rounded-full !bg-rqYEllow-saturated hover:!border-[3px] hover:bg-none hover:!text-rqYEllow-saturated hover:!bg-rqYEllow-darker !text-lg !border-solid !border !border-rqYEllow !font-extrabold !text-rqYEllow-darker !mx-auto !w-1/3 !shadow-md;
 }
 
 /* // ----------------------------------------------  Banner Field -- // */
 .banner_participant_container .rq_wp_form {
-  @apply lg:!h-auto;
+  @apply lg:!h-auto !bg-transparent !border-none lg: !w-auto;
+;
 
 }
 .banner_participant_container .rq_wp_form form .wpforms-field {

@@ -9,14 +9,14 @@
     <div class="absolute top-0 left-0 flex flex-col items-center w-full h-full grid-cols-12 px-2 pt-8 lg:items-start gap-y-0 lg:grid">
         <div class="col-span-5 col-start-2">
             <h2 class="text-4xl font-bold leading-none text-center lg:text-left lg:text-5xl lg:leading-tight font-rqNunitoSans text-rqPurple">The Future of <br><span class="text-[44px] lg:text-[80px] font-extrabold">Youth Festivals</span></h2>
-            <p class="mt-4 text-4xl font-extrabold text-center lg:hidden drop-shadow-sm font-rqNunitoSans text-rqGreen">
+            <p class="mt-4 text-4xl font-extrabold text-center counter lg:hidden drop-shadow-sm font-rqNunitoSans text-rqGreen">
                 00:00:00
             </p>
             <h3 class="text-lg font-bold text-center lg:hidden drop-shadow-sm font-rqNunito text-rqGreen"><?= RQ_FESTIVAL_DATE ?></h3>
             <p class="mt-4 text-lg leading-tight text-center lg:mt-0 lg:px-4 lg:text-xl lg:text-left text-rqPurple">
                 A space where youth will be guided to feel limitless; and free to be their authentic selves, all while learning to be conscious leaders capable of making a positive impact on the world.
             </p>
-            <p class="hidden mt-4 text-5xl font-extrabold text-center lg:mt-24 lg:block drop-shadow-sm font-rqNunitoSans text-rqGreen">
+            <p class="hidden mt-4 text-5xl font-extrabold text-center counter lg:mt-24 lg:block drop-shadow-sm font-rqNunitoSans text-rqGreen">
                 00:00:00
             </p>
             <h3 class="hidden text-lg font-bold text-center lg:block lg:text-2xl drop-shadow-sm font-rqNunito text-rqGreen"><?= RQ_FESTIVAL_DATE ?></h3>

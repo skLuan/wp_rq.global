@@ -28,10 +28,12 @@ function init_template()
         wp_enqueue_style('tailwind', get_stylesheet_directory_uri() . '/css/style_output.css', '', '1.0', 'all');
     }
     // ---------------------- Register Scripts ----------------------
-    wp_enqueue_script('iconify', 'https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js', '', '1.0', 'all');
-    wp_enqueue_script('swiper_js_main', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', '', '1.0', 'all');
+    wp_enqueue_script('dateWrapper', 'https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js', '', '1.0', 'all');
+    wp_enqueue_script('rqDateWrapper', get_stylesheet_directory_uri() . '/js/rqDate.js', 'dateWrapper', '1.0', 'all');
     wp_enqueue_script('lazyLoad_lib', 'https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.5/dist/lazyload.min.js', '', '17.8.5', 'all');
     wp_enqueue_script('rqlazyload', get_stylesheet_directory_uri().'/js/lazyload.js', ['lazyLoad_lib'], '1.0', 'all');
+    wp_enqueue_script('iconify', 'https://code.iconify.design/iconify-icon/1.0.0-beta.2/iconify-icon.min.js', '', '1.0', 'all');
+    wp_enqueue_script('swiper_js_main', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', '', '1.0', 'all');
     wp_enqueue_script('main', get_stylesheet_directory_uri().'/js/main.js', ['swiper_js_main', 'rqlazyload'], '1.0', 'all');
 }
 add_action('after_setup_theme', 'init_template');

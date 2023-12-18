@@ -11,8 +11,8 @@ $args['video_url'] ? $video_url = $args['video_url'] : $video_url = 'url_video.m
 </figure> -->
 
 <figure class="mx-1 overflow-hidden rounded-md lg:mx-4">
-    <video preload="metadata" class="" controls src="<?= $video_url ?>" poster="">
-        <source type="video/mp4" src="<?= $video_url ?>" />
+    <video class="lazy" preload="metadata" controls data-src="<?= $video_url ?>" poster="">
+        <source type="video/mp4" data-src="<?= $video_url ?>" />
         <!-- <source type="video/ogg" data-src="lazy.ogg" />
         <source type="video/avi" data-src="lazy.avi" /> -->
     </video>

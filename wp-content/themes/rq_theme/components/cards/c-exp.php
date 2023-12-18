@@ -6,7 +6,7 @@ $args['description'] ? $description = $args['description'] : $description = 'whe
 <div class="grid-cols-2 col-span-10 col-start-2 my-2 lg:grid card_exp">
     <figure class="bg-gray-300 overflow-hidden rounded-lg h-[200px] lg:h-full relative">
         <picture class="">
-            <img src="<?= $urlImg ?>" alt="">
+            <img class="lazy" data-src="<?= $urlImg ?>" alt="">
         </picture>
     </figure>
     <h5 class="bottom-0 w-full mt-4 text-4xl font-bold text-center lg:hidden drop-shadow-sm text-rqGreen-darker"><?= $title ?></h5>

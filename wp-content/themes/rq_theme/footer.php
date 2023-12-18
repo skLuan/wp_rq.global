@@ -10,15 +10,15 @@
     </ul>
     <ul class="flex flex-col items-center justify-center w-full py-2 lg:justify-evenly lg:flex-row border-y border-rqWhite-Silver">
         <li class="flex items-center justify-center w-full lg:w-[unset]">
-            <a href="">
+            <a href="https://discord.gg/zPUyfUJJ">
                 <iconify-icon class="text-2xl" icon="logos:discord-icon"></iconify-icon>
             </a>
-            <a class="ml-8" href="https://wa.me/">+1 000 0000000</a>
+            <!-- <a class="ml-8" href="https://wa.me/">+1 000 0000000</a> -->
         </li>
-        <li><a href="mailto:youthfestivalekam@gmail.com">youthfestivalekam@gmail.com</a></li>
+        <li><a href="mailto:<?= EMAIL_FESTIVAL ?>"><?= EMAIL_FESTIVAL ?></a></li>
         <li>
         </li>
-        <li><a href="">dir</a></li>
+        <li><a href=""><?= LOCATION ?></a></li>
     </ul>
     <div class="pt-2"><span class="mx-auto">copyright 2024</span></div>
 </footer>
