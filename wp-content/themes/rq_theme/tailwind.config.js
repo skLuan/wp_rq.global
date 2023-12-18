@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{php,html,js}"],
+  content: [
+    "./components/**/*.php",
+    "./js/**/*.js",
+    "./*.php",
+  ],
   theme: {
     extend: {
       colors: {
@@ -29,8 +33,8 @@ module.exports = {
         rqNunitoSans: ["Nunito Sans", "sans-serif"],
       },
       screens: {
-        '2xl': '1441px'
-      }
+        '2xl': '1441px',
+      },
     },
   },
   plugins: [],
