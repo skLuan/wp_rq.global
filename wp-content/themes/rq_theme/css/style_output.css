@@ -839,16 +839,20 @@ p {
   margin-bottom: auto;
 }
 
+.\!mb-20 {
+  margin-bottom: 5rem !important;
+}
+
+.\!mt-48 {
+  margin-top: 12rem !important;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .ml-8 {
@@ -881,10 +885,6 @@ p {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-48 {
-  margin-top: 12rem;
 }
 
 .mt-8 {
@@ -3183,8 +3183,8 @@ p {
     margin-bottom: auto;
   }
 
-  .lg\:mb-60 {
-    margin-bottom: 15rem;
+  .lg\:\!mb-32 {
+    margin-bottom: 8rem !important;
   }
 
   .lg\:ml-auto {
@@ -3217,10 +3217,6 @@ p {
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:mb-32 {
-    margin-bottom: 8rem;
   }
 
   .lg\:block {
@@ -3319,11 +3315,6 @@ p {
   .lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .lg\:px-52 {
-    padding-left: 13rem;
-    padding-right: 13rem;
   }
 
   .lg\:px-8 {
@@ -3454,41 +3445,8 @@ p {
     padding: 13rem;
   }
 
-  .\32xl\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
   .\32xl\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
-  }
-
-  .\32xl\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .\32xl\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .\32xl\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .\32xl\:px-56 {
-    padding-left: 14rem;
-    padding-right: 14rem;
-  }
-
-  .\32xl\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
-  .\32xl\:pb-8 {
-    padding-bottom: 2rem;
   }
 }
