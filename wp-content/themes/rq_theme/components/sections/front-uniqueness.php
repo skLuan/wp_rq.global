@@ -42,7 +42,7 @@ endif;
             </h3>
         </div>
         <div class="absolute flex w-full h-full">
-            <svg class="flex w-full h-full px-10 m-auto lg:px-40 2xl:px-52 opacity-20" width="88" height="75" viewBox="0 0 88 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="flex w-full h-full px-10 m-auto lg:p-40 2xl:p-52 opacity-20" width="88" height="75" viewBox="0 0 88 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.16283 73L44 2L83.8372 73H2.16283Z" stroke="#1E1D20" stroke-width="2" />
             </svg>
         </div>

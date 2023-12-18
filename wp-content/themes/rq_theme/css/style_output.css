@@ -3312,6 +3312,10 @@ p {
     background-color: rgb(113 201 191 / var(--tw-bg-opacity));
   }
 
+  .lg\:p-40 {
+    padding: 10rem;
+  }
+
   .lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -3444,6 +3448,10 @@ p {
 @media (min-width: 1441px) {
   .\32xl\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .\32xl\:p-52 {
+    padding: 13rem;
   }
 
   .\32xl\:px-60 {
