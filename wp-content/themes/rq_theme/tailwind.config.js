@@ -26,6 +26,7 @@ module.exports = {
         rqYEllow: {
           DEFAULT: "#DFCE7F",
           darker: "#AF9A3A",
+          saturated: "#FCE062",
         },
       },
       fontFamily: {

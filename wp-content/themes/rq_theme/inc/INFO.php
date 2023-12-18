@@ -7,4 +7,8 @@ define('IMAGES_URL', get_stylesheet_directory_uri().'/assets/imgs/');
 define('MOCKUP_IMAGE', get_stylesheet_directory_uri().'/assets/imgs/image_mockup.png');
 define('COMPONENTS', 'components');
 define('TRIAD_PILLARS', get_stylesheet_directory_uri() . '/assets/imgs/TRIANGLE.png');
+
+
+define('LOCATION', 'Oniya Bison Ranch, La Jara, Colorado');
+define('EMAIL_FESTIVAL', 'youthfestivalekam@gmail.com');
 ?>

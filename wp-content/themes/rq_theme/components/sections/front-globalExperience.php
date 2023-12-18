@@ -5,7 +5,7 @@
     <p class="px-4 font-extralight text-center text-3xl lg:mx-auto lg:text-5xl lg:w-2/4 mt-4 tracking-[-0.12rem] leading-[2.5rem] text-rqPurple">Your uniqueness will blossom in a space where it is honored and welcomed</p>
     <h3 class="mt-16 mb-2 text-6xl font-extrabold text-center opacity-75 lg:text-9xl font-rqNunitoSans text-rqGreen">Experience</h3>
     <?= get_template_part('components/loops/l', 'experiences') ?>
-    <div class="flex flex-col items-center p-8 my-16 bg-rqPurple">
+    <div class="flex flex-col items-center p-8 my-16 mb-20 bg-rqPurple">
         <p class="text-center lg:w-1/3 text-rqWhite">Feel a safe space where there is no <br> dream too big or too small.</p>
         <a href="#join_us" class="w-2/3 py-2 mx-auto mt-4 font-bold text-center rounded-full lg:w-1/4 bg-rqYEllow text-rqYEllow-darker">Subscribe</a>
     </div>

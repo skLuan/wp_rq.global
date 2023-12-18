@@ -19,6 +19,7 @@ window.addEventListener('load', (e)=> {
         diff = festival.diffNow(FORMAT_DATE);
         DOMdates.forEach(counter => {
         counter.textContent = diff.toFormat('M:dd:hh:mm');
+        // counter.textContent = diff.toHuman();
         });
     }
     updateDate();
