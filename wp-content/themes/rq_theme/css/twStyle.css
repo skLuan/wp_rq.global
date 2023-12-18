@@ -76,7 +76,7 @@
 
 /* // ----------------------------------------------  Banner Field -- // */
 .banner_participant_container .rq_wp_form {
-  @apply lg:!h-auto !bg-transparent !border-none lg: !w-auto;
+  @apply lg:!h-auto !bg-transparent !border-none lg:!w-auto;
 ;
 
 }

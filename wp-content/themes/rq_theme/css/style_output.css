@@ -1455,6 +1455,7 @@ p {
 @media (min-width: 1024px) {
   .banner_participant_container .rq_wp_form {
     height: auto !important;
+    width: auto !important;
   }
 }
 

@@ -9,7 +9,7 @@
     </div>
     <figure class="absolute left-0 right-0 w-5/6 mx-auto overflow-hidden rounded-full -translate-y-2/3 top-full lg:w-1/4 drop-shadow-md">
         <picture>
-            <img class="lazy" data-src="<?= IMAGES_BANNERS_URL . 'whyus@2x.png' ?>" alt="">
+            <img class="lazy" data-src="<?= IMAGES_BANNERS_URL . 'whyus@2x.png' ?>" src="<?= IMAGES_BANNERS_URL . 'whyus@2x.png' ?>" alt="">
         </picture>
     </figure>
 </section>
