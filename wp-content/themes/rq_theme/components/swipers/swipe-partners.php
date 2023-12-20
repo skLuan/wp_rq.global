@@ -20,7 +20,7 @@
         </div>
         <div class="flex flex-col !h-full !max-h-none my-auto swiper-slide">
             <h2 class="flex m-auto text-6xl font-extrabold text-white lg:text-6xl drop-shadow-md font-rqNunitoSans">ONIYA</h2>
-            <h6 class="flex justify-center w-full mx-auto mt-1 text-xl font-normal text-center lg:text-base drop-shadow-md text-rqWhite">bison rewinding project</h6>
+            <h6 class="flex justify-center w-full mx-auto mt-1 text-xl font-normal text-center lg:text-base drop-shadow-md text-rqWhite">Bison rewinding project</h6>
             <!-- <figure class="w-2/3 mx-auto overflow-hidden rounded-full h-1/3">
                 <picture>
                     <img src="<?php // MOCKUP_IMAGE 
