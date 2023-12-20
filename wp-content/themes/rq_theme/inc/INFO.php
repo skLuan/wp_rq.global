@@ -10,5 +10,5 @@ define('TRIAD_PILLARS', get_stylesheet_directory_uri() . '/assets/imgs/TRIANGLE.
 
 
 define('LOCATION', 'Oniya Bison Ranch, La Jara, Colorado');
-define('EMAIL_FESTIVAL', 'youthfestivalekam@gmail.com');
+define('EMAIL_FESTIVAL', 'info.yclcouncil@gmail.com');
 ?>
