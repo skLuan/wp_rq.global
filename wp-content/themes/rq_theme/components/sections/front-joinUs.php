@@ -7,7 +7,9 @@
 <section id="join_us" class="relative grid-cols-2 gap-4 p-4 lg:grid lg:pt-16 lg:pb-24">
     <div class="relative z-10 participant_container">
         <h3 class="text-5xl font-extrabold text-center lg:mt-80 font-rqNunitoSans text-rqGreen-darker">Become a participant</h3>
-        <?= do_shortcode('[wpforms id="24"]') ?>
+        <div class="lg:mt-8 engage-hub-form-embed" id="eh_form_6619557284544512" data-id="6619557284544512"> </div>
+        <?php //do_shortcode('[wpforms id="24"]') 
+        ?>
     </div>
     <div class="relative z-0 order-first w-full lg:text-center col-span-full lg:top-0 lg:left-0">
         <span class="font-extrabold lg:absolute left-0 -top-4 tracking-tighter text-center w-full inline-flex justify-center font-rqNunitoSans text-rqPurple text-[6.5rem] lg:text-[288px] opacity-20 lg:opacity-20">Join Us</span>
@@ -20,7 +22,9 @@
     </div>
     <div class="relative z-20 sponsor">
         <h3 class="text-5xl font-extrabold text-center lg:mt-80 font-rqNunitoSans text-rqGreen-darker">Become a sponsor</h3>
-        <?= do_shortcode('[wpforms id="29"]') ?>
+        <div class="lg:mt-8 engage-hub-form-embed" id="eh_form_6400297861906432" data-id="6400297861906432"> </div>
+        <?php // do_shortcode('[wpforms id="29"]') 
+        ?>
     </div>
 
     <!-- Become yout medicine -->
