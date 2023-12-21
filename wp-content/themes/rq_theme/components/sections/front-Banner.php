@@ -26,7 +26,9 @@
                 <button class="w-2/3 py-2 mx-auto mt-2 font-bold text-center rounded-full bg-rqYEllow lg:bg-rqGreen-saturated text-rqGreen-darker">Subscribe</button>
             </div> -->
             <div class="relative z-10 banner_participant_container">
-                <?= do_shortcode('[wpforms id="24"]') ?>
+                <div class="engage-hub-form-embed" id="eh_form_5661780013744128" data-id="5661780013744128"></div>
+                <?php // do_shortcode('[wpforms id="24"]') 
+                ?>
                 <!-- <h6 class="text-sm text-center shadow-sm text-rqWhite-Silver lg:text-rqPurple-darker">For more information subscribe</h6> -->
             </div>
         </div>

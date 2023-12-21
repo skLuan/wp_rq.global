@@ -23,6 +23,23 @@
     <div class="pt-2"><span class="mx-auto">copyright 2024</span></div>
 </footer>
 <?php wp_footer() ?>
+<!---------------------------------------- Scripts of engageBay -->
+<script type="text/javascript">
+    var EhAPI = EhAPI || {};
+    EhAPI.after_load = function() {
+        EhAPI.set_account('a5vvde83ma0ah1hdqldstp2iaf', 'rq');
+        EhAPI.execute('rules');
+    };
+    (function(d, s, f) {
+        var sc = document.createElement(s);
+        sc.type = 'text/javascript';
+        sc.async = true;
+        sc.src = f;
+        var m = document.getElementsByTagName(s)[0];
+        m.parentNode.insertBefore(sc, m);
+    })(document, 'script', '//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v' + new Date().getHours());
+</script>
+<!------------------------------------ END of engageBay -->
 </body>
 
 </html>
